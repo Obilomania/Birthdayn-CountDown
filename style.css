@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url(/images/Vendetta.jpg);
+    background-size:contain;
+    background-repeat:no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+.content{
+    margin: 30vh auto;
+    line-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#time-left{
+    color: white;
+      font-family: 'Poppins', sans-serif;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+    font-size: 4rem;
+}
+#title{
+    color: white;
+    font-weight: 400;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+    font-size: 2rem;
+}
+#countdownBtn{
+    border: none;
+    color: red;
+    background: whitesmoke;
+    padding: 10px;
+}
